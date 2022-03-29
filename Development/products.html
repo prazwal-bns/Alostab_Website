@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/svg" href="images/book.svg">
+	<title>Products Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.cover-figure {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.figure-thumb {
+			width: 1000px
+		}
+		.figure-details .heading {
+			background-color: #000; 
+			color: #fff;
+			font-size: 35px;
+			padding: 5px 10px;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		.figure-details .sub-heading {
+			font-style: italic;
+			font-size: 25px;
+			margin-bottom: 10px;
+		}
+		.shop-btn {
+			display: inline-block;
+			background: #000;
+			color: #fff !important;
+			padding: 10px 15px;
+			border: 0;
+			font-size: 20px;
+			font-style: italic;
+			border: 1.5px solid #fff;
+			text-decoration: none;
+		}
+	</style>
+	<!-- internal js-->
+	<script src="https://kit.fontawesome.com/8e291460d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div>
+					<img src="images//logo.png" alt="logo" height="60px">
+				</div>
+				<div>
+					<div class="search-bar">
+						<input type="text" placeholder="Search by authors, books or ISBN  " name="">
+						<i class="icon-search fa fa-search"></i>
+					</div>
+				</div>
+				<div>
+					<i class="fa fa-shopping-cart"></i>
+					$0.00
+				</div>
+			</div>
+		</div>
+		<div class="header-link">
+			<div class="container">
+				<div class="menu-box">
+					<ul>
+						<li>
+						<a href="index.html">Home</a>
+						</li>
+						
+						<li>
+							<a href="products.html"class="active">Products</a>
+						</li>
+						<li>
+							<a href="research.html">Research</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="coverimage" style="background-color: #5e9de7;">
+			<div class="container">
+				<div class="cover-figure">
+					<div class="figure-details">
+						<h3 class="heading"x">BOOKS</h3>
+						<h3 class="sub-heading">Up To 10% Discount</h3>
+						<a href="products.html" class="shop-btn">Shop Now</a>
+					</div>
+					<img class="figure-thumb" src="images/cover-books.png" alt="coverphoto">
+				</div>
+			</div>
+		</div>			
+	</header>
+	<section class="products">
+		<div class="container">
+			<div>
+				<h2 class="heading">Available Right Now</h2>
+				<div class="product-lists">
+					<ul>
+						<li>
+							<div class="product-card">
+								<div class="product-thumbnail">
+									<img src="images/Think and Grow Rich.png" alt="book-pic" />
+								</div>
+								<div class="product-detail">
+									<span class="product-name">Think and Grow Rich</span>
+									<span class="product-auth">By Napolean Hill </span>
+									<strong class="product-price">Rs. 450</strong>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<div class="product-thumbnail">
+									<img src="images/Everest.jpg" alt="book-pic" />
+								</div>
+								<div class="product-detail">
+									<span class="product-name">Everest</span>
+									<span class="product-auth">By Walt Unsworth</span>
+									<strong class="product-price"><strike>Rs. 860 </strike> &nbsp; Rs. 800</strong>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<div class="product-thumbnail">
+									<img src="images/Flags.jfif" alt="book-pic" />
+								</div>
+								<div class="product-detail">
+									<span class="product-name">Flags</span>
+									<span class="product-auth">  Author Unknown </span>
+									<strong class="product-price">Rs. 470</strong>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<div class="product-thumbnail">
+									<img src="images/Hooked.jfif" alt="book-pic" />
+								</div>
+								<div class="product-detail">
+									<span class="product-name">Hooked</span>
+									<span class="product-auth">By Nir Eyal Ryan Hoover </span>
+									<strong class="product-price">Rs. 1188</strong>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<div class="product-thumbnail">
+									<img src="images/Miracles Of Yantra.jfif" alt="book-pic" />
+								</div>
+								<div class="product-detail">
+									<span class="product-name">Miracles of Yantra</span>
+									<span class="product-auth">By P. Khurrana  </span>
+									<strong class="product-price">Rs. 540</strong>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<div class="product-thumbnail">
+									<img src="images/Annapurna South Face.jfif" alt="book-pic" />
+								</div>
+								<div class="product-detail">
+									<span class="product-name">Annapurna South Face</span>
+									<span class="product-auth">By Chris Boninton </span>
+									<strong class="product-price">Rs. 480</strong>
+								</div>
+							</div>
+							</li>
+							<li>
+								<div class="product-card">
+									<div class="product-thumbnail">
+										<img src="images/This is Going To Hurt.jfif" alt="book-pic" />
+									</div>
+									<div class="product-detail">
+										<span class="product-name">This is Going To Hurt</span>
+										<span class="product-auth">By Adam Kay </span>
+										<strong class="product-price">Rs. 880</strong>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="product-card">
+									<div class="product-thumbnail">
+										<img src="images/Under The Banner Of Heaven.jfif" alt="book-pic" />
+									</div>
+									<div class="product-detail">
+										<span class="product-name">Under The Banner Of Heaven</span>
+										<span class="product-auth">By John Krakauer </span>
+										<strong class="product-price"><strike>Rs. 660 </strike> &nbsp; Rs. 550</strong>
+									</div>
+								</div>
+							</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="menu-row">
+					<div class="menu-column">
+						<img src="images/logo light.png" alt="footer logo">
+						<p class="about-company">
+							Address: Pokhara-11, Fulbari <br/>
+							Phone: 061-587978 <br/>
+						</p>
+					</div>
+					<div class="menu-column">
+						<h2 class="heading">Navigations</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="products.html">Products</a></li>
+						</ul>
+					</div>
+					<div class="menu-column">
+						<h2 class="heading">Stay Connected</h2>
+						<ul>
+							<li><a href="research.html">Research</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div>
+					<div class="social-medias">
+						<a href="https://www.facebook.com/Alostab" target="_blank">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="https://www.youtube.com/" target="_blank">
+							<i class="fa fa-youtube"></i>
+						</a>
+						<a href="https://www.instagram.com/prazwal_bns/" target="_blank">
+							<i class="fa fa-instagram"></i>
+						</a>
+						<a href="https://twitter.com/home" target="_blank">
+						<i class="fa-brands fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+				<div>
+					© Copyright 2022 @ All Right Reserved 
+				</div>
+			</div>
+		</div>
+	</footer>
+	<button id="scrollBtn" onClick="go2Top()"><i class="fas fa-arrow-up"></i></button>
+	<script>
+		var i=0;
+		var images = ["images/slider-1.png", "images/slider-2.png", "images/slider-3.png"];
+		function imagesSlider(){
+			var img = document.getElementById("sliding-images");
+			img.src = images[i]; 
+			if(i < 2){
+				i++;
+			}
+			else{
+				i = 0;
+			}
+			setTimeout("imagesSlider()", 3000);
+		}
+		window.onload = function(){imagesSlider()};
+		
+	</script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/svg" href="images/book.svg">
+	<title>Contact - Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.contact-container {
+			width: 70%;
+			margin: 0 auto;
+		}
+		.contact-page {
+			padding: 100px 0
+		}
+		.contact-form {
+			padding: 40px 30px;
+			border: 1.5px solid #ccc;
+			box-sizing: border-box;
+			box-shadow: 0px 9px 14px #ccc;
+		}
+		.contact-heading{
+			margin-bottom: 30px
+		}
+		.contact-page .form-group {
+			margin-bottom: 10px
+		}
+		.form-label {
+			display: block;
+			margin-bottom: 5px;
+			font-size: 20px;
+		}
+		.form-control {
+			width: 100%;
+			display: block;
+			padding: 15px 15px;
+			border: 1.5px solid #ccc;
+			font-size: 20px;
+		}
+		.submit-btn {
+			font-size: 20px;
+			background: #000;
+			color: #fff;
+			border: 0;
+			transition: .25s ease;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+		.submit-btn:hover {
+			background: #c70000;
+			color: #fff;
+		}
+	</style>
+	<!-- External js-->
+	<script src="https://kit.fontawesome.com/8e291460d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div>
+					<img src="images//logo.png" alt="logo" height="60px">
+				</div>
+				<div>
+					<div class="search-bar">
+						<input type="text" placeholder="Search by authors, books or ISBN  " name="">
+						<i class="icon-search fa fa-search"></i>
+					</div>
+				</div>
+				<div>
+					<i class="fa fa-shopping-cart"></i>
+					$0.00
+				</div>
+			</div>
+		</div>
+		<div class="header-link">
+			<div class="container">
+				<div class="menu-box">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						
+						<li>
+							<a href="products.html">Products</a>
+						</li>
+						<li>
+							<a href="research.html">Research</a>
+						</li>
+						<li>
+							<a href="contact.html"class="active">Contact</a>
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="contact-page">
+		<div class="contact-container">
+			<h1 class="contact-heading">
+				Thank You !! for visiting my website.
+				Further more suggestions are appreciated.
+			</h1>
+			<div class="contact-form">
+				<form action="index.html" onsubmit="return validateForm();">
+					<table class="width-100">
+						<tr>
+							<td>
+								<div class="form-group">
+									<label for="name" class="form-label"><strong>Name</strong> <small>(required)</small></label>
+									<input id="name" style="width: 50%;" placeholder="Enter Your Name" class="form-control" type="text" name="name"/>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="form-group">
+									<label for="email" class="form-label"><strong>Email</strong> <small>(required)</small></label>
+									<input id="email" style="width: 50%;" placeholder="info@pilgrism.com" class="form-control" type="email" name="name"/>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="form-group">
+									<label for="website" class="form-label"><strong>Website</strong> <small>(required)</small></label>
+									<input id="website" style="width: 50%;" placeholder="Enter Your Website" class="form-control" type="text" name="name"/>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="form-group">
+									<label for="comment" class="form-label"><strong>Comments</strong> <small>(optional)</small></label>
+									<textarea style="padding: 0;" rows="10" id="name"  class="form-control"></textarea>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<button type="submit" class="submit-btn">Submit</button>
+								</div>
+							</td>
+						</tr>
+					</table>					
+				</form>
+				
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="menu-row">
+					<div class="menu-column">
+						<img src="images/logo light.png" alt="footer logo">
+						<p class="about-company">
+							Address: Pokhara-11, Fulbari <br/>
+							Phone: 061-587978 <br/>
+						</p>
+					</div>
+					<div class="menu-column">
+						<h2 class="heading">Navigations</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="products.html">Products</a></li>
+						</ul>
+					</div>
+					<div class="menu-column">
+						<h2 class="heading">Stay Connected</h2>
+						<ul>
+							<li><a href="research.html">Research</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div>
+					<div class="social-medias">
+						<a href="https://www.facebook.com/Alostab" target="_blank">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="https://www.youtube.com/" target="_blank">
+							<i class="fa fa-youtube"></i>
+						</a>
+						<a href="https://www.instagram.com/prazwal_bns/" target="_blank">
+							<i class="fa fa-instagram"></i>
+						</a>
+						<a href="https://twitter.com/home" target="_blank">
+						<i class="fa-brands fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+				<div>
+					© Copyright 2022 @ All Right Reserved 
+				</div>
+			</div>
+		</div>
+	</footer>
+	<button id="scrollBtn" onClick="go2Top()"><i class="fas fa-arrow-up"></i></button>
+<script>
+		
+		//FOrm Validation		
+		function validateForm() {
+			var name = document.getElementById('name').value;
+			var email = document.getElementById('email').value;
+			var 	website = document.getElementById('website').value;
+			if(name == "" || email == "" || website == "") {
+				alert("Please fill all the details in the form");
+				return false;
+			} 
+			else{
+				alert('You have submitted the form successfully');
+				return true;	
+			}
+		}
+	</script>
+	<script src="js/script.js"></script>
+</body>
+</html>
